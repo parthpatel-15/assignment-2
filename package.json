@@ -35,5 +35,17 @@
     "@types/passport": "^1.0.4",
     "@types/passport-local": "^1.0.33",
     "@types/passport-local-mongoose": "^4.0.13"
-  }
+  },
+  "description": "A demo app for COMP229 Week 6",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Lesson6.git"
+  },
+  "author": "Tom Tsiliopoulos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsiliopoulos/COMP229-F2020-Lesson6/issues"
+  },
+  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Lesson6#readme"
 }
