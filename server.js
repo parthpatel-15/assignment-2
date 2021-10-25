@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 
-/**
- * Module dependencies.
- */
+
+ // Module dependencies.
+ 
 
 var app = require('./server/config/app');
 var debug = require('debug')('week-4:server');
 var http = require('http');
 
-/**
- * Get port from environment and store in Express.
- */
+
+ // Get port from environment and store in Express.
+ 
 
 var port = normalizePort(process.env.PORT || '3500');
 app.set('port', port);
