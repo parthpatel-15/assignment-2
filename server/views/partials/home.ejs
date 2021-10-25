@@ -1,0 +1,26 @@
+<!-- File name: home.ejs
+     Student name: Parth Patel
+     Student ID: 301207843
+     date : 28th sept 2021-->
+<!-- *********************************   HOME PAGE  *********************************************** -->
+  <%if (title == "Home"){ %>
+   <button id="b1" type="button"> about me! </button>             <!-- button for move on to aboutme page-->
+   <script type="text/javascript">
+      document.getElementById("b1").onclick = function () {
+          location.href = "http://localhost:3500/about";
+      };
+    </script>
+   
+ 
+    
+    <div id="p1">                                 <!--Mission Statement-->
+      <h3 >
+     ~ Hello, this is my website for assigment-1. This assignment is about create Expres portfolio site with five different pages-Home, Aboutme, Service, Project and Contact.
+      </h3>
+      <h3>
+     ~ So i created this home page and put button and some information here. 
+      </h3>
+    </div>
+    <p style="position: absolute; top:1000px; left: 20px; color: rgb(114, 119, 119);"> thank you </p>
+    <%}%>
+    <!-- *********************************   HOME PAGE  *********************************************** -->

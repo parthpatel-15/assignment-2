@@ -1,0 +1,42 @@
+ <!-- File name: contact.ejs
+     Student name: Parth Patel
+     Student ID: 301207843
+     date : 28th sept 2021-->
+ <!-- *********************************   contact page    *********************************************** -->
+     <% if (title == "contact"){ %> 
+
+      <div class="container" style="position: absolute; top:250px;">
+        <h2>Contact Me</h2>
+        <div id="panel" class="panel panel-default" style="border: 2px solid blue; ">       <!--create panel to show my contact information -->
+          <div class="panel-body">                                
+            <h6> Contact no: 9512274227</h6>
+            <h6> Email : parthpatel5333@gamil.com </h6>
+
+          </div>
+        </div>
+      </div>
+      <h3 style="position: absolute; top: 400px; left: 400px;">Contact Form:</h3><br>
+      <form style="position: absolute; top : 450px; left:400px; background-color: papayawhip; width: 600px ; height: 400px; " action="/home">
+           <!-- create form to send message -->
+        <label for="fname">  First Name:  </label><br>
+        <input style=" width: 580px; margin-left: 10px;"type="text" id="fname" name="firstname" placeholder="Your name..."><br>
+    
+        <label for="lname">  Last Name: </label><br>
+        <input style=" width: 580px; margin-left: 10px;" type="text" id="lname" name="lastname" placeholder="Your last name..."><br>
+
+        <label for="cnumber">  Contact Number: </label><br>
+        <input style=" width: 580px; margin-left: 10px;" type="text" id="cnumber" name="contactno" placeholder="Your Contact no..."><br>
+
+        <label for="mail">  email adress: </label><br>
+        <input style=" width: 580px; margin-left: 10px;" type="text" id="mail" name="email" placeholder="Your email..."><br>
+
+        <label for="msg">message: </label><br>
+        <textarea id="mdg" name="message" placeholder="Write something.." style="height:100px; width: 600px;" ></textarea><br>
+        <input style="position: absolute; left: 250px;"type="submit" formaction="http://localhost:3000/home" value="submit">
+        
+      </form>
+
+      <h2 style="position: absolute; top:  1000px;"> thank you</i> </h2>
+
+     <%}%>
+<!-- *********************************   contact page    *********************************************** -->
