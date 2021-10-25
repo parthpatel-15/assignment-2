@@ -118,7 +118,6 @@ module.exports.processRegisterPage = (req, res, next) => {
         }
         else
         {
-            
 
             return passport.authenticate('local')(req, res, () => {
                 res.redirect('/contact-list')
