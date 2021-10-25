@@ -13,7 +13,7 @@ router.get('/home', indexController.displayHomePage);
 router.get('/about', indexController.displayAboutPage);
 
 /* GET Products page. */
-router.get('/products', indexController.displayProductsPage);
+router.get('/projects', indexController.displayProductsPage);
 
 /* GET Services page. */
 router.get('/services', indexController.displayServicesPage);
