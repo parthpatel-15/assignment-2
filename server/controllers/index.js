@@ -1,4 +1,5 @@
 /*   File name: index.js
+
      Student name: Parth Patel
      Student ID: 301207843
      Assignment: web authentication 
