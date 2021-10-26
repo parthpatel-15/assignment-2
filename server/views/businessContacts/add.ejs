@@ -6,7 +6,7 @@
 <div class="container">
     <div class="row">
         <div class="offset-md-3 col-md-6">
-            <h1><%= title %></h1>
+            <h1 style="text-align: center;"><%= title %> </h1>
 
             <form class="form" method="POST">
                 <div class="form-group">
@@ -18,25 +18,25 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="authorTextField">Numbers :</label>
+                    <label for="numberTextField">Numbers :</label>
                     <input type="text" class="form-control"
-                    id="authorTextField"
+                    id="numberTextField"
                     placeholder="Enter your 9-digit number:"
-                    name="author" required>
+                    name="number" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="publishedTextField">Email</label>
+                    <label for="emailTextField">Email</label>
                     <input type="text" class="form-control"
-                    id="publishedTextField"
+                    id="emailTextField"
                     placeholder="Enter your mail adress"
-                    name="published" required>
+                    name="email" required>
                 </div>
 
-                <button class="btn btn-primary" type="submit">
+                <button style="width: 50%;" onMouseOver="this.style.color='black'" onMouseOut="this.style.color='white'" class="btn btn-primary" type="submit">
                     <i class="fas fa-edit"></i> Submit</button>
                 
-                    <a href="/contact-list" class="btn btn-warning">
+                    <a style="width: 49%;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'" href="/contact-list" class="btn btn-warning">
                         <i class="fas fa-undo"></i> Cancel</a>
 
             </form>

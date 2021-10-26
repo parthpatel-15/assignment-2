@@ -8,7 +8,7 @@
         <div class="offset-md-3 col-md-8"></div>
         <h1 class="mb-4"><%= title %> </h1>
 
-        <form class="form" method="POST">
+        <form style="top: 200px;;" class="form" method="POST">
             <div class="form-group">
                 <label for="nameTextField" class="mb-1">Name:</label>
                 <input 
@@ -46,10 +46,10 @@
                     required>
             </div>
 
-            <button class="btn btn-warning mt-3" type="submit">Submit</button>
-            <a href="/contact-list" class="btn btn-secondary mt-3">Cancel</a>
+            <button style="width: 49%;" class="btn btn-warning mt-3" type="submit">Submit</button>
+            <a style="width: 49%;"href="/contact-list" class="btn btn-secondary mt-3">Cancel</a>
             <!-- Delete button -->
-            <a href="/contact-list/delete/<%= contact._id %>" class="btn btn-danger mt-3 mx-2" role="button">Delete <%=contact.name%></a>
+            <a href="/contact-list/delete/<%= contact._id %>"  style="width: 90%;" class="btn btn-danger mt-3 mx-2" role="button">Delete -> <%=contact.name%></a>
         </form>
 </main>
 
