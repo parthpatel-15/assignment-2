@@ -46,12 +46,12 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Lesson6.git"
+    "url": "git+https://github.com/parthpatel-15/assignment-2.git"
   },
   "author": "Parth Patel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/parthpatel-15/assignment-2.git"
   },
-  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Lesson6#readme"
+  "homepage": "https://github.com/parthpatel-15/assignment-2.git"
 }
